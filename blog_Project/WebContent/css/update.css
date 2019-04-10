@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 회원정보수정창 */
+
+/* 폼 */
+.fr01 { 
+	text-align: center;
+	border: 3px solid;
+	background-color: #f0f0f0;
+} 
+
+/* 정보수정창 */
+.updateForm {
+	border: 1px solid;
+	margin: 5px 10px;
+	background-color: #80ff80;
+}
+
+/* 항목이름 */
+.menu {
+	font-size: 14px;
+	font-weight: 700px;
+	padding-bottom: 0em;
+	margin-bottom: 0em;
+}
+
+/* 항목입력창 */
+.irt {
+	border: 2px solid;
+	width: 410px;
+	height: 30px;
+	padding-right: 25px;
+	padding-left: 20px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 우편번호입력창 */
+.irt2 {
+	border: 2px solid;
+	width: 200px;
+	height: 30px;
+	padding-right: 25px;
+	padding-left: 20px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 입력창 설명란 */
+.ref {
+	margin-top: 0.1em;
+	font-size: 12px;
+	margin-bottom: 0em;
+}
+
+/* 우편번호버튼 */
+.btn {
+	width : 210px;
+	height: 30px;
+	font-size: 15px;	
+	margin-top: 0.5em;
+	font-weight: 3em;
+}
+
+/* 성별선택창 */
+.selbox {
+	border: 2px solid;
+	width: 100px;
+	height: 30px;
+	padding-right: 25px;
+	padding-left: 20px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 생년월일 선택창 */
+.selBirth {
+	border: 2px solid;
+	width: 100px;
+	height: 34px;
+	padding-right: 10px;
+	padding-left: 20px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 전화번호 앞자리 */
+.phoneA {
+	border: 2px solid;
+	width: 80px;
+	height: 34px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 전화번호 뒷자리 */
+.phoneB {
+	border: 2px solid;
+	width: 220px;
+	height: 30px;
+	padding-right: 25px;
+	padding-left: 20px;
+	padding-bottom: 0em;	
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+/* 버튼 */
+.lastBtn {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,481 @@
+@charset "UTF-8";
+/* -----categoryBoard----- */
+/* categoryBoard 리스트 */
+.content-area {
+	display:block;
+	box-sizing:border-box;
+	width:1000px;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #ffebc6;
+}
+
+/* reservation CSS */
+.reservation_area {
+	display:block;
+	border:1px solid;
+	border-radius: 15px;
+	padding:20px;
+}
+
+.reservation_ShowArea img {
+	width:200px;
+	height:340px;
+	margin:auto;
+	box-shadow: 0 0 20px 6px black;
+}
+
+#movie_radio {margin:10px;font-size:20px;height:30px;width:30px;}
+#reservation_title {font-size:23px;}
+#reservation_engtitle {font-size:21px;}
+#reservation_movie_genre {font-size:20px;}
+#reservation_title, #reservation_engtitle, #reservation_movie_genre {
+	font-family: Nanum Pen Script;
+}
+
+.reservation_time_block {
+	display:block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#rev_title, #rev_title1 {
+	font-family: Nanum Pen Script;
+	font-size: 25px;
+}
+
+#rev_title {
+	border-bottom: 1px dashed;
+	padding-bottom: 15px;
+}
+
+#rev_title1 {
+	width:120px;
+	height:50px;
+}
+
+
+#rev_date, #rev_time {
+	margin-bottom: 15px;
+	border-bottom: 1px solid;
+}
+
+#rev_radio1, #rev_radio2 {
+	font-size:18px;
+	height:30px;
+	width:110px;
+}
+
+#radio_size {
+	font-size:18px;
+	height:18px;
+	width:18px;
+}
+
+.seat_select {
+	display:block;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.seat_select table{
+	margin:auto;
+}
+
+#checkbox_size {
+	height:18px;
+	width:18px;
+}
+
+
+/* movieContent CSS */
+.movieRef {
+	display:block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.movieRef_block {
+	display:inline-block;
+	width:200px; 
+	height:340px;
+	margin:8px;
+	padding:3px;
+	border:1px solid;
+	float:left;
+}
+
+#movie_ref_img {
+	width:200px; 
+	height:340px;
+}
+
+.movie_ref_block {
+	display:inline-block;
+	border:1px solid;
+	width:500px;
+	margin:8px;
+	padding:10px;
+	float:right;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#movie_ref_title, #movie_ref_subtitle, #movie_ref_ref {font-family: Nanum Pen Script;}
+#movie_ref_title {font-size:40px;margin:20px;}
+#movie_ref_subtitle {font-size:20px;margin:10px;}
+#movie_ref_ref {font-size:25px;margin:5px;}
+
+.movie_ref_explain_block {
+	display: block;
+	clear: both;
+	margin:8px;
+	border: 2px solid;
+	padding: 25px;
+	text-align: left;
+	font-family: Nanum Pen Script;
+}
+
+#explain_title {
+	margin: 20px;
+	font-size: 40px;
+	border-bottom: 2px solid;
+}
+
+#explain_contents {
+	width: 804px;
+	height: 230px;
+	background-color:#ffebc6;
+	border:none;
+	resize: none;
+	margin: 20px;
+	padding-top: 20px;
+	font-family: Nanum Pen Script;
+	font-size: 25px;
+}
+
+.oneline_comment_area {
+	display:block;
+	box-sizing: border-box;
+	width:1000px;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	background-color: #ffebc6;
+}
+
+.comment_block {
+	display: block;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.comment_view_block, .comment_write_block {
+	display: block;
+    clear: both;
+    margin: 8px;
+    border: 2px solid;
+    padding: 25px;
+    text-align: left;
+    font-family: Nanum Pen Script;
+}
+
+.commentCount {
+	font-family: Nanum Pen Script;
+	font-size: 30px;
+	border-bottom:2px solid;
+}
+
+.commentCount span {color:blue;}
+
+.comment_view_title, .comment_write_title {
+	padding-left: 30px;
+	font-family: Nanum Pen Script;
+	font-size: 30px;
+}
+
+.comment_view_table, .comment_write_table {
+	border:1px solid;
+	border-radius: 0 15px 0 15px;
+	margin-bottom: 10px;
+}
+
+.comment_view_id, .commment_view_content, .comment_view_date, .comment_view_delBtn, .comment_write_content, .comment_write_subBtn {
+	box-sizing:border-box;
+	height: 50px;
+	padding: 0 20px;
+	font-family: Nanum Pen Script;
+	font-size: 16px;
+}
+.comment_view_id {min-width:120px;}
+.comment_view_date {min-width:125px;}
+.commment_view_content {background-color:#ffc6aa;width: 495px;}
+.comment_view_delBtn, .comment_write_subBtn {min-width:105px;}
+
+#comment_box {background-color:#ffc6aa;width:655px;resize: none;padding:5px 20px;}
+
+#comment_icon a {background-color: #8080ff;color:white; font-family: Nanum Pen Script; text-decoration:none;}
+#comment_icon a:hover {background-color: #00ffff;color:black;text-decoration:underline;}
+
+
+
+/* movie 공통 */
+/* 게시판 타이틀 */
+.movie_title {
+	margin:0px;	
+	font-family: Nanum Pen Script;
+	margin-bottom:10px;
+	border-bottom: 1px solid;
+	font-size: 50px; 
+}	
+
+.movie_title span {color:blue;}
+
+/* 글 페이지 표시란 */
+.boardPage {
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+.boardPage a {font-size:20px;text-decoration:none;}
+
+/* 슬라이드 */
+.slideShowArea {
+	display: block;
+	width:920px;
+	height:680px;
+	margin:0px;
+	padding:20px;
+	text-align: center;
+	position:relative;
+}
+
+.slideShowArea img {
+	width:400px;
+	height:680px;
+	margin:auto;
+	box-shadow: 0 0 20px 6px black;
+}
+
+.mySlides {display:none;}
+
+
+/* movieList CSS */
+.post-area  {
+	display:block;
+	border:1px solid;
+	border-radius: 15px;
+	padding:20px;
+}
+
+.post {
+	display: inline-block;
+	width: 214px;
+	height: 555px;
+	margin: 10px 15px;
+	box-sizing:border-box;
+	border: 5px solid;
+	padding:1px;
+	text-align: center;
+}
+
+.post img {
+	display:block;
+	width:200px;
+	height: 340px;
+	margin-bottom: 5px;
+	border-bottom: 6px dashed;
+	border-color:black;
+	padding-bottom: 5px;
+}
+
+.post td {padding:0px;}
+.post ul {padding:0px;margin:0px;}
+.post h3 {margin:10px;}
+
+#list_movie_genre{font-family:Nanum Pen Script;font-size:25px;}
+
+/* 칸넘어갔을때 처리 */
+.post li {
+	list-style: none;
+	width:200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.post tr:hover {opacity: 0.6;background-color:#ffffce;}
+
+/* 슬라이드쇼 버튼 */
+.w3-btn-floating:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.w3-btn-floating{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.w3-btn-floating{display:inline-block;text-align:center;color:#fff;background-color:#000;position:relative;overflow:hidden;z-index:1;padding:0;border-radius:50%;cursor:pointer;font-size:24px}
+.w3-btn-floating{width:40px;height:40px;line-height:40px}
+.w3-btn-floating:disabled{cursor:not-allowed;opacity:0.3}
+.w3-btn-floating.w3-disabled *{pointer-events:none}
+.w3-btn-floating.w3-disabled:hover,.w3-btn-floating:disabled:hover{box-shadow:none}
+
+
+
+
+/* ---------------- */
+/* 내용 하부 프레임 */ 
+.boardListBottom {
+	width:960px;
+	box-sizing:border-box;
+	display: inline-block;
+	text-align:right;
+}
+
+/* 하부 메뉴 */
+.boardMenu {
+	width:230px;
+	margin-right:36px;
+	display:inline-block;
+}
+
+/* 글수정 삭제 쓰기 */
+.boardInsDelWri {
+	display:inline-block;
+}
+
+.boardInsDelWri ul {list-style: none; padding:0px; margin:0px;}
+.boardInsDelWri li {display:inline-block;}
+#boardIcon a {font-size:25px; color:white; font-family: Nanum Pen Script; text-decoration:none;}
+#boardIcon a:hover {text-decoration:underline;}
+
+#boardIcon {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 5px; 
+	background-color: #8080ff;
+}
+
+.boardSearch {
+	display:inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* 검색어 입력란 */
+.searchIrt {
+	width:150px;
+	height:40px;
+	margin: 5px 0;
+	text-align:center;
+	border-radius:8px;
+}
+
+/* categoryBoard 글쓰기 */
+
+.categoryBoardWriteForm {
+	display: block;
+	box-sizing: border-box;
+	border:1px dotted;
+	margin:5px;
+	font-family: Nanum Pen Script;
+	font-size:30px;
+}
+
+.categoryBoardWriteForm table {
+	margin:10px;
+}
+
+.wTitle {
+	min-width: 100px;
+	height:30px;
+}
+
+#categorySelectBox {
+	width:100px;
+	height:30px;
+	font-family: Nanum Pen Script;
+	font-size:25px;
+}
+
+#blockIdPass, #blockTitle, #blockContents{
+	border:1px solid;
+	border-radius: 0 0 10px 0;
+	padding:10px;
+	font-family: Nanum Pen Script;
+	font-size:25px;
+}
+
+#blockIdPass {width:150px;}
+#blockTitle {width:605px;padding-right:10px;}
+#blockContents {width:760px;height:300px;padding-right:25px;}
+
+.categoryValue {
+	border:1px solid;
+	border-radius: 15px;
+	text-align: left;
+	padding: 10px;
+}
+
+.boardInsDelWri {
+	display:inline-block;
+}
+
+#boardIcon a {font-size:25px; color:white; font-family: Nanum Pen Script; text-decoration:none;}
+#boardIcon a:hover {text-decoration:underline;}
+
+#boardIcon {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 5px; 
+	background-color: #8080ff;
+}
+
+
+
+/* contents 페이지 */
+.postContents {
+	display:block;
+	box-sizing:border-box;
+	outline:1px solid;
+	padding: 15px;
+}
+
+.postView {
+	display:block;
+	font-family: Nanum Pen Script;
+	font-size: 30px;
+}
+
+#postViewName {
+	width: 120px;
+}
+
+#postViewTitle {
+	width: 600px;
+	border-bottom: 1px dotted;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+  	overflow: hidden;
+}
+
+#postViewName, #postViewTitle {
+	height:30px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: Nanum Pen Script;
+	font-size: 30px;
+}
+
+.postView img {
+	display:block;
+	width:800px;
+	margin:10px;
+	box-shadow: 0 0 20px 6px black;
+}
+#timeCheck {display: none;}
+#dateCheck:selection #timeCheck{
+	display: block;
+	
+}

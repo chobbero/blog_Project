@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* 회원정보출력 */
+
+
+/* 폼 */
+.sec1 {
+	margin-top:70px;
+	text-align:center;
+	border:3px solid;
+	background-color:#f0f0f0;
+}
+
+/* 정보 폼*/
+.infoForm {
+	border:1px solid;
+	margin:5px 10px;
+	background-color:#c6ffc6;
+}
+
+/* 항목입력창 */
+.irt { 
+	border:2px solid;
+	width:410px;
+	height:30px;
+	padding-right:25px;
+	padding-left:20px;
+	padding-bottom:0em;
+	margin:0.5em auto 0.4em auto;
+	text-align:center;
+}
+
+/* 버튼 */
+.lastBtn {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

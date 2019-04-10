@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Nanum Brush Script', cursive;
+	font-family: 'Nanum Pen Script', cursive;
+	url('https://fonts.googleapis.com/css?Nanum+Brush+Script|Nanum+Pen+Script&subset=korean');
+}
+
+/* 해더 프레임 */
+header {
+	display: block;
+	margin:auto;
+	text-align:center;
+}
+
+.headerMain {
+	display: inline-block;
+	box-sizing:border-box;
+	width:1000px;
+}
+
+/* 회원 상태바? */
+.user {
+	display:block;
+	background-color: #ebebeb;
+	text-align:right;
+}
+
+.welcome {
+	display:inline-block;
+	font-family: Nanum Pen Script;
+	font-size: 26px;
+}
+
+.welcome p {padding:0;margin:0 20px 0 0;}
+
+.userMenu {
+	display:inline-block;
+	box-sizing:border-box;
+	border-color:black;
+	text-align: right;
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size:20px;
+}
+
+.userMenu a {
+	font-family: Nanum Pen Script;
+	text-decoration:none;
+}
+
+#login, #join, #logout{
+	display: inline-block;
+	border:1px solid;
+	padding:1px;
+}
+
+.mainTop {
+	display:block;
+	box-sizing:border-box;
+	color: black;
+	height: 250px;
+	background-image: url("../img/background_img.jpg");
+}
+
+/* 메뉴바 */
+.menuBar {
+	display: block;
+	box-sizing:border-box;
+	width:1000px;
+	margin-top: 5px;
+	border:none;
+}
+
+.menuBar li{float:left;padding:0px;}
+
+.menuBar ul {
+	background: #e0fee3;
+	height:50px;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.menuBar li a{
+	background: #e0fee3;
+	color:#000000;
+	display:block;
+	line-height:50px;
+	margin:0px;
+	padding:0px 25px;
+	font-family: Nanum Pen Script;
+	font-size: 30px;
+	font-weight:normal;
+	text-align:center;
+	text-decoration:none;
+}
+
+.menuBar li a:hover, .menuBar ul li:hover a{
+	background: #8dfc98;
+	color:#000000;
+	font-size:30px;
+	text-decoration:none;
+}
+
+ /* 평상시에는 드랍메뉴가 안보이게 하기 */
+.menuBar li ul{
+	background: #e0fee3;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:200px;
+	z-index:200;
+	opacity:0.9;
+}
+
+/* 마우스 커서 올리면 드랍메뉴 보이게 하기 */
+.menuBar li:hover ul{display:block;}
+
+.menuBar li li {
+	background: #e0fee3;
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:200px;
+	opacity:0.9;
+}
+
+.menuBar li:hover li a{background:none;}
+
+.menuBar li ul a{
+	display:block;
+	height:50px;
+	font-size:12px;
+	font-style:normal;
+	margin:0px;
+	padding:0px 10px 0px 15px;
+	text-align:left;
+}
+
+.menuBar li ul a:hover, .menuBar li ul li:hover a{
+	background: #8dfc98;
+	border:0px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.menuBar p{clear:left;}
+
+/* 메뉴 밑줄 제거 */
+a {text-decoration: none;}

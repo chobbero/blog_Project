@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* 폼 */
+.fr01 {
+	text-align:center;
+	border:3px solid;
+	background-color: #f0f0f0;
+} 
+
+/* 입력 폼 */
+.joinForm {
+	border:2px solid;
+	width:1100px;
+	margin:0.5em auto;
+	background-color:#80ff80;
+}
+
+/* 정보입력란 */
+.irt {
+	border:2px solid;
+	width:410px;
+	height:30px;
+	padding-right:25px;
+	padding-left:20px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+	text-align:center;
+}
+
+/* 우편번호란 */
+.irt2 {
+	border:2px solid;
+	width:200px;
+	height:30px;
+	padding-right:25px;
+	padding-left:20px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+}
+
+/* 참고사항란 */
+.ref {
+	margin-top:0.1em;
+	font-size:12px;
+	margin-bottom:0em;
+}
+
+/* 우편번호버튼 */
+.btn {
+	width:210px;
+	height:30px;
+	font-size:15px;	
+	margin-top:0.5em;
+	font-weight:3em;
+}
+
+/* 성별선택 */
+.selbox {
+	border:2px solid;
+	width:100px;
+	height:30px;
+	padding-right:25px;
+	padding-left:20px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+}
+
+/* 생년월일선택 */
+.selBirth {
+	border:2px solid;
+	width:100px;
+	height:34px;
+	padding-right:10px;
+	padding-left:20px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+}
+
+/* 핸드폰 앞자리 */
+.phoneA {
+	border:2px solid;
+	width:80px;
+	height:34px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+}
+
+/* 핸드폰 뒷자리 */
+.phoneB {
+	border:2px solid;
+	width:220px;
+	height:30px;
+	padding-right:25px;
+	padding-left:20px;
+	padding-bottom:0em;	
+	margin-top:0.5em;
+	margin-bottom:0.4em;
+}
+
+/* 버튼 */
+.lastBtn {
+	margin-bottom:15px;
+}

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.footer {
+	font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	padding: 10px 0;
+	clear:both;
+	display:block;
+	width:100%;
+	text-align: center;
+}
+.footer a {
+	text-decoration: none;
+	padding-bottom: 10px;
+}

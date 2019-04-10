@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* 로그인이미지 */
+.smallImg { 
+	height:100px;
+	width:500px;
+	margin:auto;
+}
+
+/* 로그인 간판 */
+.loginName {
+	margin-top:50px;
+	text-align:center;
+	font-style:italic;
+	font-size:30px;
+}
+
+/* 항목입력*/
+.loginForm {
+	width:500px;
+	border:1px solid black;
+	margin:2em auto;
+	background-color:#f3f3f3;
+}
+
+/* 항목입력 여백및 뒷배경 */
+.inputForm {
+	box-sizing:border-box;
+	margin:1em 0.5em;
+	padding:5px;
+	text-align:center;
+	
+}
+
+/* 이름, 비밀번호 입력란 제목 */
+#inputFormN { 
+	margin-bottom:0em;
+	color:black;
+	text-align:center;
+}
+
+/* 입력란 */
+.irt { 
+	border:2px solid;
+	width:410px;
+	height:40px;
+	padding:auto 25px 20px 0;
+	margin:0.5em auto;
+	font-size:16px;
+	text-align:center;
+}
+
+/* 버튼 */
+.lastBtn { 
+	margin:5px auto;
+	text-align:center;
+	padding:0.5px 0.5px;
+}
+
+.mainBtn {
+	margin:20px auto;
+	text-align:center;
+	padding:0.5px 0.5px;
+}
+
+/* 회원 탈퇴 */
+
+.delName {
+	text-align:center;
+}
+.delConfirm {
+	text-align:center;
+}
+.delBtn {
+	margin: 20px auto;
+	text-align:center;
+}
+
+/* send_mail CSS */
+
+.mail_form_block {
+	display:block;
+	border:1px solid;
+	width:650px;
+	height:580px;
+	text-align: center;
+	padding:15px;
+}
+
+.mail_form_title, .mail_form_insert {
+	display:block;
+	padding:10px;
+	margin:10px;
+	border:1px solid;
+	font-family: Nanum Pen Script;
+}
+
+.mail_form_title {font-size: 35px;}
+
+#form_table_title_td {
+	min-width:100px;
+	border-right: 1px solid;
+}
+
+#send_form_title {font-size: 25px;}
+
+#form_align-left {text-align:left;}
+
+#send_form_insert_name, #send_form_insert_email, #send_form_insert_title, #send_form_insert_content {
+	margin:10px;
+	font-family: Nanum Pen Script;	
+}
+
+#send_form_insert_name, #send_form_insert_email, #send_form_insert_title {
+	height:30px;
+	font-size: 22px;
+}
+
+#send_form_insert_name {width: 150px;}
+#send_form_insert_email {width:240px;} 
+#send_form_insert_title {width: 480px;}
+
+#send_form_insert_content {
+	width:480px;
+	height:165px;
+	resize:none;
+	font-size:18px;
+}
+
